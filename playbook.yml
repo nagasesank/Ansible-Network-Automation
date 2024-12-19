@@ -1,0 +1,23 @@
+- hosts: ios
+  roles:
+    - ios
+
+- hosts: iosxe
+  roles:
+    - iosxe
+
+- hosts: asa
+  roles:
+    - asa
+
+- hosts: nxos
+  roles:
+    - nxos
+
+- hosts: juniper
+  roles:
+    - juniper
+
+- hosts: bigip
+  roles:
+    - bigip

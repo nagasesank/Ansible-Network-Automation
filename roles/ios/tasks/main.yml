@@ -1,0 +1,5 @@
+---
+- name: Configure hostname on IOS device
+  ios_config:
+    lines:
+      - hostname IOS_Device

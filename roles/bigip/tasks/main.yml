@@ -1,0 +1,8 @@
+---
+- name: Configure virtual server on BIG-IP
+  bigip_virtual_server:
+    name: my_virtual_server
+    destination: 192.168.1.6:80
+    ip_protocol: tcp
+    mask: 255.255.255.255
+    state: present

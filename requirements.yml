@@ -1,0 +1,6 @@
+---
+collections:
+  - junipernetworks.juniper
+  - cisco.ios
+  - cisco.nxos
+  - bigip.f5
